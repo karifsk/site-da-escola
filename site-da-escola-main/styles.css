@@ -1,0 +1,23 @@
+
+
+
+
+
+
+
+roott{
+    --branco-principal:
+    --cinza-secundario:
+    --botao-azul:
+    --cor-de-fundo:
+}
+
+body{
+    background-color: var(--cor-de-fundo);
+    color: var(--branco-principal);
+
+}
+*{
+    margin: 0;
+    padding: 0;
+}
