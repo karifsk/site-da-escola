@@ -1,16 +1,10 @@
-
-
-
-
-
-
-
-roott{
+:root{
     --branco-principal:
     --cinza-secundario:
     --botao-azul:
     --cor-de-fundo:
 }
+
 
 body{
     background-color: var(--cor-de-fundo);
@@ -20,4 +14,19 @@ body{
 *{
     margin: 0;
     padding: 0;
+}
+
+.principal{
+    background-image: ur1("img/calcajeans.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.container{
+    height: 100vh;
+}
+
+.container__botao {
+    background-color: var(--botao-azul); 'preto'
+    border-radius: 5px;'preto'
 }
